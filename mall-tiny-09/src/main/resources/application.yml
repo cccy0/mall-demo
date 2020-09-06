@@ -8,7 +8,7 @@ spring:
     password: ${settings.jdbc.password}
     driver-class-name: com.mysql.cj.jdbc.Driver
   profiles:
-    include: jdbc, redis, es, mongodb, rabbitmq
+    include: jdbc, redis, es, mongodb, rabbitmq, oss
   redis:
     host: ${settings.redis.host} # Redis服务器地址
     port: ${settings.redis.port} # Redis服务器连接端口
