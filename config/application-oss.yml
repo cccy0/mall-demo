@@ -1,0 +1,5 @@
+settings:
+  oss:
+    accessKeyId: # accessKeyId
+    accessKeySecret: # accessKeySecret
+    bucketName: # bucketName

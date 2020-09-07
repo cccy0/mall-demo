@@ -1,0 +1,4 @@
+settings:
+  elasticsearch:
+    cluster-nodes: # ES node列表 ip+端口(9300)
+    cluster-name: # ES cluster的名称
